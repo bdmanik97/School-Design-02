@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../images/main-background.jpg);
+    background-size: contain;
+    height: 100vh;
+}
+img{
+    width: 100%;
+}
+.slide-area{
+    padding: 50px 200px;
+}
+.nav{
+    background-color: rgb(49, 183, 56);
+}
+.nav-custom{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown-menu-custom{
+    background-color: rgb(107, 230, 114);
+}
+
+.custom-marque{
+    margin-top: 3px;
+
+    border: 1px solid rgb(2, 155, 10);;
+}
+
+.container-custom{
+    margin-top: 20px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+.content{
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(36, 177, 43);
+    /* width: 90%; */
+    color: rgb(255, 255, 255);
+}
+
+.content-1{
+    font-size: 22px;
+    padding: 10px;
+    background-color: rgb(36, 177, 43);
+    /* width: 90%; */
+    color: rgb(255, 255, 255);
+}
+
+.navbar-custom{
+    background-color: rgb(21, 151, 28);
+}
+.content2{
+    display: block;
+}
+
+.container2-custom{
+    margin-left: 250px;
+    margin-right: 200px;
+}
+
+.fotter-content{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/* .container{
+    margin-left: 200px;
+    margin-right: 200px;
+} */
+
+/* massages area start */
+.contact-area{
+    margin-top: 30px;
+}
+.contact-main-area{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    column-gap: 20px;
+}
+.contact-person-area{
+    background:#0A8E28 ;
+    width: 300px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.contart-person-main-area{
+    
+}
+.contact-person-images{}
+.contact-person-name{
+    padding-left: 20px;
+    border-bottom: 2px solid grey;
+
+}
+.contact-person-name h1{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+.massage-send-btn{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.send-msg-btn{
+    padding: 5px;
+    border: 2px solid rgb(244, 128, 128);
+    border-radius: 50px;
+    background-color: #1690ed;
+    font-size: 18px;
+    color: #ffffff;
+
+
+}
+/* marque design start here */
+.notice-area1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 40px;
+    border: 2px solid #0A8E28;
+}
+.notice-header1{
+    background-color: #0A8E28;
+    padding: 5px 15px;
+    width: 200px;
+}
+.notice-header1 p{
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.notice-list1{
+    background-color: rgb(173, 213, 241);
+    color: #0A8E28;
+
+}
+
+/* image style start here */
+.image-area{
+    margin-top: 10px;
+}
+.image-main-area{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 20px;
+}
+.person-area{
+    background-color: #aaedba;
+
+
+}
+.person-main-area{
+
+}
+.person-image{
+    
+}
+.person-details{
+
+}
+.person-details p {
+    text-align: center;
+}
+.message-button{
+
+}
+
+/* Staff Information page start here */
+.information-area{
+    margin: 0 auto;
+}
+.information-main-are{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-image{
+    padding: 20px 50px;
+    background-color: #aaedba;
+}
+.header-description{
+    padding: 20px 50px;
+    background-color: #aaedba;
+}
+.header-details{
+    padding: 20px 50px;
+    background-color: #aaedba;
+}
+
+
+
+
+.table-area{
+    margin-top: 10px;
+    padding: 0px 0px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+}
+.herader{
+    /* align-items: center; */
+}
+.row{
+    display: flex;
+}
+
+.container-custom{
+    margin: 0px 400px;
+}
+table{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+}
+th{
+    background-color: rgb(10, 233, 10);
+    border: 2px solid black;
+    padding: 8px;
+    text-decoration: left;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+}
+td{
+    background-color: white;
+    border: 2px solid black;
+    padding: 8px;
+    text-decoration: left;
+    text-align: left;
+    font-size: 17px;
+}
+.td-details{
+    padding: 10px 40px;
+    height: 130px;
+    width: 170px;
+}
