@@ -16,7 +16,7 @@ img{
     padding: 50px 200px;
 }
 .nav{
-    background-color: rgb(49, 183, 56);
+    background-color: #0A8E28;
 }
 .nav-custom{
     font-size: 16px;
@@ -24,63 +24,28 @@ img{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .dropdown-menu-custom{
-    background-color: rgb(107, 230, 114);
+    background-color: #2df55c;
 }
-
-.custom-marque{
-    margin-top: 3px;
-
-    border: 1px solid rgb(2, 155, 10);;
-}
-
-.container-custom{
-    margin-top: 20px;
-    margin-left: 220px;
-    margin-right: 220px;
-}
-
-.content{
-    padding: 10px;
-    font-size: 16px;
-    background-color: rgb(36, 177, 43);
-    /* width: 90%; */
-    color: rgb(255, 255, 255);
-}
-
-.content-1{
-    font-size: 22px;
-    padding: 10px;
-    background-color: rgb(36, 177, 43);
-    /* width: 90%; */
-    color: rgb(255, 255, 255);
-}
-
 .navbar-custom{
-    background-color: rgb(21, 151, 28);
+    background-color: #0A8E28;
 }
+/* Footer section start here */
 .content2{
     display: block;
 }
-
 .container2-custom{
     margin-left: 250px;
     margin-right: 200px;
 }
-
 .fotter-content{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
+/* Footer section end here */
 
-/* .container{
-    margin-left: 200px;
-    margin-right: 200px;
-} */
-
-/* massages area start */
+/* Image design start here */
 .contact-area{
     margin-top: 30px;
 }
@@ -95,22 +60,23 @@ img{
     width: 300px;
     border-radius: 10px;
     padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 .contart-person-main-area{
     
 }
-.contact-person-images{}
+.contact-person-images{
+
+}
 .contact-person-name{
     padding-left: 20px;
     border-bottom: 2px solid grey;
-
 }
 .contact-person-name h1{
     font-size: 15px;
     color: #ffffff;
     font-weight: 500;
     margin-top: 10px;
-
 }
 .massage-send-btn{
     margin-top: 10px;
@@ -123,9 +89,9 @@ img{
     background-color: #1690ed;
     font-size: 18px;
     color: #ffffff;
-
-
 }
+/* Image design end here */
+
 /* marque design start here */
 .notice-area1{
     display: flex;
@@ -147,87 +113,12 @@ img{
     font-weight: 600;
 }
 .notice-list1{
-    background-color: rgb(173, 213, 241);
-    color: #0A8E28;
+    background-color: rgb(82, 175, 242);
+    color: #ffffff;
+}
+/* marque design end here */
 
-}
-
-/* image style start here */
-.image-area{
-    margin-top: 10px;
-}
-.image-main-area{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    column-gap: 20px;
-}
-.person-area{
-    background-color: #aaedba;
-
-
-}
-.person-main-area{
-
-}
-.person-image{
-    
-}
-.person-details{
-
-}
-.person-details p {
-    text-align: center;
-}
-.message-button{
-
-}
-
-/* Staff Information page start here */
-.information-area{
-    margin: 0 auto;
-}
-.information-main-are{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.header-image{
-    padding: 20px 50px;
-    background-color: #aaedba;
-}
-.header-description{
-    padding: 20px 50px;
-    background-color: #aaedba;
-}
-.header-details{
-    padding: 20px 50px;
-    background-color: #aaedba;
-}
-
-
-
-
-.table-area{
-    margin-top: 10px;
-    padding: 0px 0px;
-}
-.table{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    height: 300px;
-    width: 100%;
-    align-items: center;
-}
-.herader{
-    /* align-items: center; */
-}
-.row{
-    display: flex;
-}
-
+/* Staff page table start here */
 .container-custom{
     margin: 0px 400px;
 }
@@ -239,7 +130,7 @@ table{
     font-size: 18px;
 }
 th{
-    background-color: rgb(10, 233, 10);
+    background-color: #0A8E28;
     border: 2px solid black;
     padding: 8px;
     text-decoration: left;
@@ -260,3 +151,118 @@ td{
     height: 130px;
     width: 170px;
 }
+/* Staff page table end here */
+
+/* History page start here */
+.container-custom{
+    margin: 10px 300px;
+}
+.history-area{
+    border: 2px solid red;
+    background-color: #ffffff;
+    padding: 5px 10px;
+}
+.history-main-area{
+
+}
+.container-custom h1{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px 10px;
+}
+.peragrap{
+    font-family: sans-serif;
+    
+}
+/* History page end here */
+
+/* Achivment page start here */
+.container-custom{
+    margin: 30px 310px;
+    font-size: 17px;
+}
+.achivment-page{
+    border: 2px solid green;
+    background-color: #ffffff;
+    padding: 10px 10px;
+    margin-bottom: 80px;
+}
+.achivment-page h5{
+    text-align: center;
+}
+.header1{
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px 1px;
+}
+/* Achivment page end here */
+
+/* goverming body page start here */
+.td-color{
+    background-color: rgb(235, 215, 191);
+    text-align: center;
+}
+/* goverming body page end here */
+
+/* <!-- Chairmen page start here --> */
+.row{
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+.image-custom{
+    border: 1px solid green;
+    height: 230px;
+    width: 100%;
+}
+.content-row{
+    margin-top: 90px;
+    font-size: 23px;
+    width: 100%;
+}
+.container{
+    text-align: justify;
+}
+.chairmen{
+    text-align: center;
+    color: red;
+}
+.row-custom{
+    margin-top: 50px;
+    border: 1px solid green;
+    text-align: justify;
+    background-color: #ffffff;
+    padding: 30px 15px 65px 45px;
+}
+.message{
+    font-size: 22px;
+}
+/* <!-- Chairmen page end here --> */
+
+/* Principle page start here */
+.row-custom{
+
+}
+.principle{
+
+}
+.message1{
+    align-items: center;
+    font-size: 15px;
+}
+/* Principle page end here */
+
+/* Viceprinciple design page start here */
+.content-row{
+    font-weight: bolder;
+}
+.message{
+    font-size: 18px;
+}
+.row-custom1{
+    margin-top: 50px;
+    border: 1px solid green;
+    text-align: justify;
+    background-color: #ffffff;
+    padding: 30px 0px 65px 45px;
+}
+/* Viceprinciple design page end here */
