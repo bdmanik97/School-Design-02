@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -9,14 +11,39 @@ body{
     background-size: contain;
     height: 100vh;
 }
+
+/* new navbar design start here */
+/* .navbar-area1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.toggle{
+    display: none;
+    color: red;
+    font-size: 30px;
+}
+.close{
+    display: none;
+} */
+/* new navbar design end here */
+
 img{
     width: 100%;
 }
 .slide-area{
     padding: 50px 200px;
 }
-.nav{
+.bg-green{
     background-color: #0A8E28;
+    
+}
+.nav-link{
+    color: #ffffff !important;
+}
+.navbar-toggler{
+    border: 1px solid #ffffff !important;
 }
 .nav-custom{
     font-size: 16px;
@@ -105,7 +132,7 @@ img{
     padding: 5px 15px;
     width: 200px;
 }
-.notice-header1 p{
+.notice-header1 span{
     color: #ffffff;
     font-size: 15px;
     text-align: center;
@@ -266,3 +293,48 @@ td{
     padding: 30px 0px 65px 45px;
 }
 /* Viceprinciple design page end here */
+
+/* cordinator page design start here */
+.row{
+
+}
+.cordinator-details{
+    
+}
+/* cordinator page design start here */
+
+/* Glance page start here */
+.container1-custom{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.thead2{
+    background-color: yellowgreen;
+}
+/* Glance page start here */
+
+/* Programe page design start here */
+.container-custom{
+
+}
+.programe-main-area{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid green;
+}
+/* Programe page design end here */
+
+/* Admission design page start here */
+p{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px; 
+}
+.programe-details{
+
+}
+/* Admission design page start here */
