@@ -338,36 +338,3 @@ h2{
 
 }
 /* Admission design page start here */
-
-.social-media-bar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: rgba(0, 0, 0, 0.25);
-    padding: 5px;
-}
-.social-media-bar-icon{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    column-gap: 20px;
-}
-.social-icon{
-
-    display: block;
-    font-size: 26px;
-}
-.social-media-bar-icon>.social-icon:nth-child(1){
-    color: #1690ed;
-}
-.social-media-bar-icon>.social-icon:nth-child(2){
-    color: #ffffff;
-    background: red;
-    padding: 3px 7px;
-    border-radius: 50%;
-    border: 1px solid rgb(51, 51, 234);
-
-}
-.social-media-bar-icon>.social-icon:nth-child(3){
-    color: burlywood;
-}
